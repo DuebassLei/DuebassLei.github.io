@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Centos常用操作 | 海边的小溪鱼</title>
+    <meta name="generator" content="VuePress 1.7.1">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="description" content="Study Programs And Record Life">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    
+    <link rel="preload" href="/assets/css/0.styles.379fd69c.css" as="style"><link rel="preload" href="/assets/js/app.b573ec73.js" as="script"><link rel="preload" href="/assets/js/3.92680ad1.js" as="script"><link rel="preload" href="/assets/js/1.b182e45e.js" as="script"><link rel="preload" href="/assets/js/45.c5b23a8e.js" as="script"><link rel="prefetch" href="/assets/js/10.6d61cae3.js"><link rel="prefetch" href="/assets/js/11.5ffe7c05.js"><link rel="prefetch" href="/assets/js/12.e178089f.js"><link rel="prefetch" href="/assets/js/13.c89da928.js"><link rel="prefetch" href="/assets/js/14.f571430d.js"><link rel="prefetch" href="/assets/js/15.4237c581.js"><link rel="prefetch" href="/assets/js/16.2463d222.js"><link rel="prefetch" href="/assets/js/17.b2f37e18.js"><link rel="prefetch" href="/assets/js/18.2a13c2b0.js"><link rel="prefetch" href="/assets/js/19.189a7834.js"><link rel="prefetch" href="/assets/js/20.131a5ab9.js"><link rel="prefetch" href="/assets/js/21.c56058e0.js"><link rel="prefetch" href="/assets/js/22.a6d91b02.js"><link rel="prefetch" href="/assets/js/23.3f5fe8da.js"><link rel="prefetch" href="/assets/js/24.24bfde06.js"><link rel="prefetch" href="/assets/js/25.0ed45265.js"><link rel="prefetch" href="/assets/js/26.192e3e08.js"><link rel="prefetch" href="/assets/js/27.22a94629.js"><link rel="prefetch" href="/assets/js/28.46c6dbf2.js"><link rel="prefetch" href="/assets/js/29.f2c96203.js"><link rel="prefetch" href="/assets/js/30.74da5ddc.js"><link rel="prefetch" href="/assets/js/31.b4441dc0.js"><link rel="prefetch" href="/assets/js/32.0a8b5d4b.js"><link rel="prefetch" href="/assets/js/33.d56f506e.js"><link rel="prefetch" href="/assets/js/34.759d0138.js"><link rel="prefetch" href="/assets/js/35.c7bdf48a.js"><link rel="prefetch" href="/assets/js/36.da1feae8.js"><link rel="prefetch" href="/assets/js/37.010958de.js"><link rel="prefetch" href="/assets/js/38.3ae5e359.js"><link rel="prefetch" href="/assets/js/39.850a982c.js"><link rel="prefetch" href="/assets/js/4.33bb2bb9.js"><link rel="prefetch" href="/assets/js/40.e1ac5a77.js"><link rel="prefetch" href="/assets/js/41.24e24064.js"><link rel="prefetch" href="/assets/js/42.b168caa6.js"><link rel="prefetch" href="/assets/js/43.c1ecef5e.js"><link rel="prefetch" href="/assets/js/44.10311f48.js"><link rel="prefetch" href="/assets/js/46.2f81ecb5.js"><link rel="prefetch" href="/assets/js/47.94089d4d.js"><link rel="prefetch" href="/assets/js/48.7430eea3.js"><link rel="prefetch" href="/assets/js/49.157d44ba.js"><link rel="prefetch" href="/assets/js/5.1e639f6b.js"><link rel="prefetch" href="/assets/js/50.bcde274e.js"><link rel="prefetch" href="/assets/js/51.d897a7fb.js"><link rel="prefetch" href="/assets/js/52.f43eba50.js"><link rel="prefetch" href="/assets/js/53.f1feb720.js"><link rel="prefetch" href="/assets/js/54.83ce34db.js"><link rel="prefetch" href="/assets/js/55.d55ec6e2.js"><link rel="prefetch" href="/assets/js/56.1c468c4c.js"><link rel="prefetch" href="/assets/js/57.7b71a433.js"><link rel="prefetch" href="/assets/js/58.4be7793c.js"><link rel="prefetch" href="/assets/js/59.27199257.js"><link rel="prefetch" href="/assets/js/6.24f70107.js"><link rel="prefetch" href="/assets/js/60.0f993e07.js"><link rel="prefetch" href="/assets/js/61.c7682a8e.js"><link rel="prefetch" href="/assets/js/62.d6e0c948.js"><link rel="prefetch" href="/assets/js/63.a50eaeac.js"><link rel="prefetch" href="/assets/js/64.67e7e363.js"><link rel="prefetch" href="/assets/js/65.2852885e.js"><link rel="prefetch" href="/assets/js/66.434154a5.js"><link rel="prefetch" href="/assets/js/67.1750a774.js"><link rel="prefetch" href="/assets/js/68.7aac8af9.js"><link rel="prefetch" href="/assets/js/69.e921f703.js"><link rel="prefetch" href="/assets/js/7.5f82921c.js"><link rel="prefetch" href="/assets/js/70.e4e64485.js"><link rel="prefetch" href="/assets/js/71.c66b63b0.js"><link rel="prefetch" href="/assets/js/72.485b058d.js"><link rel="prefetch" href="/assets/js/73.c727a20b.js"><link rel="prefetch" href="/assets/js/74.0bb675cb.js"><link rel="prefetch" href="/assets/js/75.6765c23b.js"><link rel="prefetch" href="/assets/js/76.754acf02.js"><link rel="prefetch" href="/assets/js/77.2ac49137.js"><link rel="prefetch" href="/assets/js/78.464e16f9.js"><link rel="prefetch" href="/assets/js/79.becd4086.js"><link rel="prefetch" href="/assets/js/8.ad6ac445.js"><link rel="prefetch" href="/assets/js/80.ea6bf898.js"><link rel="prefetch" href="/assets/js/81.ca5a6232.js"><link rel="prefetch" href="/assets/js/82.8ff2cb71.js"><link rel="prefetch" href="/assets/js/9.34c74320.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.379fd69c.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div><div class="theme-container" data-v-e3b9d544><div data-v-e3b9d544><div id="loader-wrapper" class="loading-wrapper" data-v-1c4f0192 data-v-e3b9d544 data-v-e3b9d544><div class="loader-main" data-v-1c4f0192><div data-v-1c4f0192></div><div data-v-1c4f0192></div><div data-v-1c4f0192></div><div data-v-1c4f0192></div></div> <!----> <!----></div> <div class="password-shadow password-wrapper-out" style="display:none;" data-v-071f7da2 data-v-e3b9d544 data-v-e3b9d544><h3 class="title" style="display:none;" data-v-071f7da2 data-v-071f7da2>海边的小溪鱼</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-071f7da2 data-v-071f7da2><input type="password" value="" data-v-071f7da2> <span data-v-071f7da2>Konck! Knock!</span> <button data-v-071f7da2>OK</button></label> <div class="footer" style="display:none;" data-v-071f7da2 data-v-071f7da2><span data-v-071f7da2><i class="iconfont reco-theme" data-v-071f7da2></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-071f7da2>vuePress-theme-reco</a></span> <span data-v-071f7da2><i class="iconfont reco-other" data-v-071f7da2></i> <a data-v-071f7da2>DuebassLei</a></span> <span data-v-071f7da2><i class="iconfont reco-copyright" data-v-071f7da2></i> <a data-v-071f7da2>2021</a></span></div></div> <div class="hide" data-v-e3b9d544><header class="navbar" data-v-e3b9d544><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/head.png" alt="海边的小溪鱼" class="logo"> <span class="site-name">海边的小溪鱼</span></a> <div class="links"><div class="color-picker"><a class="color-button"><i class="iconfont reco-color"></i></a> <div class="color-picker-menu" style="display:none;"><div class="mode-options"><h4 class="title">Choose mode</h4> <ul class="color-mode-options"><li class="dark">dark</li><li class="auto active">auto</li><li class="light">light</li></ul></div></div></div> <div class="search-box"><i class="iconfont reco-search"></i> <input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/Algorithm/" class="nav-link"><i class="iconfont undefined"></i>
+  Algorithm
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Docker/" class="nav-link"><i class="iconfont undefined"></i>
+  Docker
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Git/" class="nav-link"><i class="iconfont undefined"></i>
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Java/" class="nav-link"><i class="iconfont undefined"></i>
+  Java
+</a></li><li class="dropdown-item"><!----> <a href="/categories/JavaScript/" class="nav-link"><i class="iconfont undefined"></i>
+  JavaScript
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Linux/" class="nav-link"><i class="iconfont undefined"></i>
+  Linux
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Javascript/" class="nav-link"><i class="iconfont undefined"></i>
+  Javascript
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Css/" class="nav-link"><i class="iconfont undefined"></i>
+  Css
+</a></li><li class="dropdown-item"><!----> <a href="/categories/React/" class="nav-link"><i class="iconfont undefined"></i>
+  React
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Other/" class="nav-link"><i class="iconfont undefined"></i>
+  Other
+</a></li><li class="dropdown-item"><!----> <a href="/categories/SpringBoot/" class="nav-link"><i class="iconfont undefined"></i>
+  SpringBoot
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Vue/" class="nav-link"><i class="iconfont undefined"></i>
+  Vue
+</a></li><li class="dropdown-item"><!----> <a href="/categories/SQL/" class="nav-link"><i class="iconfont undefined"></i>
+  SQL
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/openSource/" class="nav-link"><i class="iconfont reco-document"></i>
+  开源项目
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      爱好
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/hobby/" class="nav-link"><i class="iconfont reco-tag"></i>
+  画廊
+</a></li><li class="dropdown-item"><!----> <a href="/movie/" class="nav-link"><i class="iconfont reco-tag"></i>
+  电影
+</a></li><li class="dropdown-item"><!----> <a href="/book/" class="nav-link"><i class="iconfont reco-tag"></i>
+  书单
+</a></li><li class="dropdown-item"><!----> <a href="/cartoon/" class="nav-link"><i class="iconfont reco-tag"></i>
+  番剧
+</a></li><li class="dropdown-item"><!----> <a href="/chest/" class="nav-link"><i class="iconfont reco-tag"></i>
+  百宝箱
+</a></li></ul></div></div><div class="nav-item"><a href="/mine/" class="nav-link"><i class="iconfont reco-friend"></i>
+  关于我
+</a></div><div class="nav-item"><a href="/timeLine/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      博客
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://blog.csdn.net/m0_37903882" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-csdn"></i>
+  CSDN
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://github.com/DuebassLei" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://www.jianshu.com/u/6740c2a5866d" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-jianshu"></i>
+  简书
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://juejin.im/user/5aa1029c51882555770c0603" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-juejin"></i>
+  掘金
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://gitee.com/DuebassLei" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-mayun"></i>
+  码云
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://www.zhihu.com/people/gao-lei-79-95/activities" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-zhihu"></i>
+  知乎
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <a href="https://github.com/DuebassLei/vuepress-theme-DuebassLei" target="_blank" rel="noopener noreferrer" class="repo-link"><i class="iconfont reco-github"></i>
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask" data-v-e3b9d544></div> <aside class="sidebar" data-v-e3b9d544><div class="personal-info-wrapper" data-v-c115f482><img src="/assets/img/home-head.e03a83f6.png" alt="hero" class="personal-img" data-v-c115f482> <h3 class="name" data-v-c115f482>DuebassLei</h3> <div class="num" data-v-c115f482><div data-v-c115f482><h3 data-v-c115f482>57</h3> <h6 data-v-c115f482>文章</h6></div> <div data-v-c115f482><h3 data-v-c115f482>22</h3> <h6 data-v-c115f482>标签</h6></div></div> <hr data-v-c115f482></div> <nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link"><i class="iconfont reco-home"></i>
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      分类
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/categories/Algorithm/" class="nav-link"><i class="iconfont undefined"></i>
+  Algorithm
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Docker/" class="nav-link"><i class="iconfont undefined"></i>
+  Docker
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Git/" class="nav-link"><i class="iconfont undefined"></i>
+  Git
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Java/" class="nav-link"><i class="iconfont undefined"></i>
+  Java
+</a></li><li class="dropdown-item"><!----> <a href="/categories/JavaScript/" class="nav-link"><i class="iconfont undefined"></i>
+  JavaScript
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Linux/" class="nav-link"><i class="iconfont undefined"></i>
+  Linux
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Javascript/" class="nav-link"><i class="iconfont undefined"></i>
+  Javascript
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Css/" class="nav-link"><i class="iconfont undefined"></i>
+  Css
+</a></li><li class="dropdown-item"><!----> <a href="/categories/React/" class="nav-link"><i class="iconfont undefined"></i>
+  React
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Other/" class="nav-link"><i class="iconfont undefined"></i>
+  Other
+</a></li><li class="dropdown-item"><!----> <a href="/categories/SpringBoot/" class="nav-link"><i class="iconfont undefined"></i>
+  SpringBoot
+</a></li><li class="dropdown-item"><!----> <a href="/categories/Vue/" class="nav-link"><i class="iconfont undefined"></i>
+  Vue
+</a></li><li class="dropdown-item"><!----> <a href="/categories/SQL/" class="nav-link"><i class="iconfont undefined"></i>
+  SQL
+</a></li></ul></div></div><div class="nav-item"><a href="/tag/" class="nav-link"><i class="iconfont reco-tag"></i>
+  标签
+</a></div><div class="nav-item"><a href="/openSource/" class="nav-link"><i class="iconfont reco-document"></i>
+  开源项目
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-category"></i>
+      爱好
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/hobby/" class="nav-link"><i class="iconfont reco-tag"></i>
+  画廊
+</a></li><li class="dropdown-item"><!----> <a href="/movie/" class="nav-link"><i class="iconfont reco-tag"></i>
+  电影
+</a></li><li class="dropdown-item"><!----> <a href="/book/" class="nav-link"><i class="iconfont reco-tag"></i>
+  书单
+</a></li><li class="dropdown-item"><!----> <a href="/cartoon/" class="nav-link"><i class="iconfont reco-tag"></i>
+  番剧
+</a></li><li class="dropdown-item"><!----> <a href="/chest/" class="nav-link"><i class="iconfont reco-tag"></i>
+  百宝箱
+</a></li></ul></div></div><div class="nav-item"><a href="/mine/" class="nav-link"><i class="iconfont reco-friend"></i>
+  关于我
+</a></div><div class="nav-item"><a href="/timeLine/" class="nav-link"><i class="iconfont reco-date"></i>
+  时间轴
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title"><i class="iconfont reco-message"></i>
+      博客
+    </span> <span class="arrow right"></span></a> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="https://blog.csdn.net/m0_37903882" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-csdn"></i>
+  CSDN
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://github.com/DuebassLei" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-github"></i>
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://www.jianshu.com/u/6740c2a5866d" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-jianshu"></i>
+  简书
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://juejin.im/user/5aa1029c51882555770c0603" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-juejin"></i>
+  掘金
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://gitee.com/DuebassLei" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-mayun"></i>
+  码云
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li><li class="dropdown-item"><!----> <a href="https://www.zhihu.com/people/gao-lei-79-95/activities" target="_blank" rel="noopener noreferrer" class="nav-link external"><i class="iconfont reco-zhihu"></i>
+  知乎
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul></div></div> <a href="https://github.com/DuebassLei/vuepress-theme-DuebassLei" target="_blank" rel="noopener noreferrer" class="repo-link"><i class="iconfont reco-github"></i>
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Centos常用操作</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/views/linux/centos.html#yum镜像源更换" class="sidebar-link">yum镜像源更换</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/views/linux/centos.html#安装基础库" class="sidebar-link">安装基础库</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/views/linux/centos.html#安装gcc" class="sidebar-link">安装gcc</a></li><li class="sidebar-sub-header"><a href="/views/linux/centos.html#pcre、pcre-devel安装" class="sidebar-link">pcre、pcre-devel安装</a></li><li class="sidebar-sub-header"><a href="/views/linux/centos.html#zlib安装" class="sidebar-link">zlib安装</a></li><li class="sidebar-sub-header"><a href="/views/linux/centos.html#openssl安装" class="sidebar-link">openssl安装</a></li></ul></li><li><a href="/views/linux/centos.html#安装nginx" class="sidebar-link">安装nginx</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/views/linux/centos.html#firewall防火墙" class="sidebar-link">firewall防火墙</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/views/linux/centos.html#安装及查看服务" class="sidebar-link">安装及查看服务</a></li><li class="sidebar-sub-header"><a href="/views/linux/centos.html#启用某个服务" class="sidebar-link">启用某个服务</a></li><li class="sidebar-sub-header"><a href="/views/linux/centos.html#开启某个端口" class="sidebar-link">开启某个端口</a></li><li class="sidebar-sub-header"><a href="/views/linux/centos.html#伪装ip" class="sidebar-link">伪装IP</a></li><li class="sidebar-sub-header"><a href="/views/linux/centos.html#端口转发" class="sidebar-link">端口转发</a></li><li class="sidebar-sub-header"><a href="/views/linux/centos.html#使用命令加载设置" class="sidebar-link">使用命令加载设置</a></li><li class="sidebar-sub-header"><a href="/views/linux/centos.html#查看开启的端口和服务" class="sidebar-link">查看开启的端口和服务</a></li></ul></li><li><a href="/views/linux/centos.html#修改ssh端口" class="sidebar-link">修改ssh端口</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/views/linux/centos.html#一、修改ssh配置文件sshd-config" class="sidebar-link">一、修改ssh配置文件sshd_config</a></li><li class="sidebar-sub-header"><a href="/views/linux/centos.html#二、防火墙设置" class="sidebar-link">二、防火墙设置</a></li><li class="sidebar-sub-header"><a href="/views/linux/centos.html#参考" class="sidebar-link">参考</a></li></ul></li><li><a href="/views/linux/centos.html#修改root密码" class="sidebar-link">修改root密码</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/views/linux/centos.html#netstat-命令" class="sidebar-link">Netstat 命令</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/views/linux/centos.html#常见参数" class="sidebar-link">常见参数</a></li><li class="sidebar-sub-header"><a href="/views/linux/centos.html#常用命令" class="sidebar-link">常用命令</a></li></ul></li></ul></section></li></ul> </aside> <div class="password-shadow password-wrapper-in" style="display:none;" data-v-071f7da2 data-v-e3b9d544><h3 class="title" style="display:none;" data-v-071f7da2 data-v-071f7da2>Centos常用操作</h3> <!----> <label id="box" class="inputBox" style="display:none;" data-v-071f7da2 data-v-071f7da2><input type="password" value="" data-v-071f7da2> <span data-v-071f7da2>Konck! Knock!</span> <button data-v-071f7da2>OK</button></label> <div class="footer" style="display:none;" data-v-071f7da2 data-v-071f7da2><span data-v-071f7da2><i class="iconfont reco-theme" data-v-071f7da2></i> <a target="blank" href="https://vuepress-theme-reco.recoluan.com" data-v-071f7da2>vuePress-theme-reco</a></span> <span data-v-071f7da2><i class="iconfont reco-other" data-v-071f7da2></i> <a data-v-071f7da2>DuebassLei</a></span> <span data-v-071f7da2><i class="iconfont reco-copyright" data-v-071f7da2></i> <a data-v-071f7da2>2021</a></span></div></div> <div data-v-e3b9d544><main class="page"><!----> <div class="page-title" style="display:none;"><h1>Centos常用操作</h1> <hr> <div data-v-3cf1d7fb><i class="iconfont reco-account" data-v-3cf1d7fb><span data-v-3cf1d7fb>DuebassLei</span></i> <i class="iconfont reco-date" data-v-3cf1d7fb><span data-v-3cf1d7fb>2020-12-14</span></i> <i class="iconfont reco-eye" data-v-3cf1d7fb><span id="/views/linux/centos.html" data-flag-title="Your Article Title" class="leancloud-visitors" data-v-3cf1d7fb><a class="leancloud-visitors-count" style="font-size:.9rem;font-weight:normal;color:#999;"></a></span></i> <i class="iconfont reco-tag tags" data-v-3cf1d7fb><span class="tag-item" data-v-3cf1d7fb>
+      centos
+    </span></i></div></div> <div class="theme-reco-content content__default" style="display:none;"><h2 id="yum镜像源更换"><a href="#yum镜像源更换" class="header-anchor">#</a> yum镜像源更换</h2> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment">#进入镜像源目录</span>
+
+<span class="token builtin class-name">cd</span> /etc/yum.repos.d
+
+<span class="token comment"># 备份旧的配置文件 </span>
+
+<span class="token function">mv</span> CentOS-Base.repo CentOS-Base.repo.bak 
+
+<span class="token comment">#下载阿里源的文件 </span>
+
+<span class="token function">wget</span> -O CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo 
+
+<span class="token comment">#清理缓存</span>
+
+yum clean all 
+
+<span class="token comment">#重新生成新的缓存</span>
+
+yum makecache 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br></div></div><h2 id="安装基础库"><a href="#安装基础库" class="header-anchor">#</a> 安装基础库</h2> <h3 id="安装gcc"><a href="#安装gcc" class="header-anchor">#</a> 安装gcc</h3> <blockquote><p>gcc是linux下的编译器在此不多做解释，感兴趣的小伙伴可以去查一下相关资料，它可以编译 C,C++,Ada,Object C和Java等语言</p></blockquote> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment">#查看gcc版本 </span>
+gcc -v
+
+<span class="token comment">#安装</span>
+yum -y <span class="token function">install</span> gcc
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h3 id="pcre、pcre-devel安装"><a href="#pcre、pcre-devel安装" class="header-anchor">#</a> pcre、pcre-devel安装</h3> <blockquote><p>pcre是一个perl库，包括perl兼容的正则表达式库，nginx的http模块使用pcre来解析正则表达式，所以需要安装pcre库。</p></blockquote> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment">#安装</span>
+yum <span class="token function">install</span> -y pcre pcre-devel
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h3 id="zlib安装"><a href="#zlib安装" class="header-anchor">#</a> zlib安装</h3> <blockquote><p>zlib库提供了很多种压缩和解压缩方式nginx使用zlib对http包的内容进行gzip，所以需要安装</p></blockquote> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment">#安装</span>
+yum <span class="token function">install</span> -y zlib zlib-devel
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h3 id="openssl安装"><a href="#openssl安装" class="header-anchor">#</a> openssl安装</h3> <blockquote><p>openssl是web安全通信的基石</p></blockquote> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment">#安装</span>
+yum <span class="token function">install</span> -y openssl openssl-devel
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><h2 id="安装nginx"><a href="#安装nginx" class="header-anchor">#</a> 安装nginx</h2> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment">#1 下载nginx</span>
+<span class="token function">wget</span> http://nginx.org/download/nginx-1.18.0.tar.gz 
+
+<span class="token comment">#2 解压</span>
+<span class="token function">tar</span> -zxvf  nginx-1.18.0.tar.gz
+
+<span class="token comment">#3 进入nginx解压的文件目录</span>
+<span class="token builtin class-name">cd</span> nginx-1.18.0
+
+<span class="token comment">#4 依次运行下面命令</span>
+./configure
+ 
+<span class="token function">make</span>
+ 
+<span class="token function">make</span> <span class="token function">install</span>
+ 
+<span class="token comment">#5 默认安装目录usr/local/nginx</span>
+<span class="token builtin class-name">cd</span> usr/local/nginx
+
+<span class="token comment">#配置所在文件</span>
+usr/local/nginx/conf
+
+<span class="token comment">#切换到/usr/local/nginx/sbin，启动nginx</span>
+./nginx
+
+<span class="token comment">#查看nginx进程,是否启动成功</span>
+<span class="token function">ps</span> -ef <span class="token operator">|</span> <span class="token function">grep</span> nginx
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br><span class="line-number">19</span><br><span class="line-number">20</span><br><span class="line-number">21</span><br><span class="line-number">22</span><br><span class="line-number">23</span><br><span class="line-number">24</span><br><span class="line-number">25</span><br><span class="line-number">26</span><br><span class="line-number">27</span><br></div></div><h2 id="firewall防火墙"><a href="#firewall防火墙" class="header-anchor">#</a> <code>firewall</code>防火墙</h2> <h3 id="安装及查看服务"><a href="#安装及查看服务" class="header-anchor">#</a> 安装及查看服务</h3> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 安装</span>
+yum <span class="token function">install</span> firewalld
+
+<span class="token comment"># 开启服务</span>
+systemctl start firewalld.service
+
+<span class="token comment"># 关闭服务</span>
+systemctl stop firewalld.service
+
+
+<span class="token comment">#开机自动启动</span>
+systemctl <span class="token builtin class-name">enable</span> firewalld.service
+
+<span class="token comment">#关闭开机启动</span>
+systemctl disable firewalld.service 
+
+<span class="token comment">#查看状态</span>
+firewall-cmd --state <span class="token comment">#running 表示运行</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br><span class="line-number">12</span><br><span class="line-number">13</span><br><span class="line-number">14</span><br><span class="line-number">15</span><br><span class="line-number">16</span><br><span class="line-number">17</span><br><span class="line-number">18</span><br></div></div><h3 id="启用某个服务"><a href="#启用某个服务" class="header-anchor">#</a> 启用某个服务</h3> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment">#临时</span>
+firewall-cmd --zone<span class="token operator">=</span>public --add-service<span class="token operator">=</span>https
+
+<span class="token comment">#永久</span>
+firewall-cmd --permanent --zone<span class="token operator">=</span>public --add-service<span class="token operator">=</span>https 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><h3 id="开启某个端口"><a href="#开启某个端口" class="header-anchor">#</a> 开启某个端口</h3> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment">#永久</span>
+firewall-cmd --permanent --zone<span class="token operator">=</span>public --add-port<span class="token operator">=</span><span class="token number">8080</span>-8081/tcp 
+<span class="token comment">#临时</span>
+firewall-cmd --zone<span class="token operator">=</span>public --add-port<span class="token operator">=</span><span class="token number">8080</span>-8081/tcp 
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h3 id="伪装ip"><a href="#伪装ip" class="header-anchor">#</a> 伪装<code>IP</code></h3> <blockquote><p>防火墙可以实现伪装IP的功能，下面的端口转发就会用到这个功能。</p></blockquote> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code>firewall-cmd --query-masquerade <span class="token comment"># 检查是否允许伪装IP</span>
+firewall-cmd --add-masquerade <span class="token comment"># 允许防火墙伪装IP</span>
+firewall-cmd --remove-masquerade<span class="token comment"># 禁止防火墙伪装IP</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br></div></div><h3 id="端口转发"><a href="#端口转发" class="header-anchor">#</a> 端口转发</h3> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment"># 将80端口的流量转发至8080</span>
+firewall-cmd --add-forward-port<span class="token operator">=</span>port<span class="token operator">=</span><span class="token number">80</span>:proto<span class="token operator">=</span>tcp:toport<span class="token operator">=</span><span class="token number">8080</span> --permanent
+<span class="token comment"># 将80端口的流量转发至</span>
+firewall-cmd --add-forward-port<span class="token operator">=</span>port<span class="token operator">=</span><span class="token number">80</span>:proto<span class="token operator">=</span>tcp:toaddr<span class="token operator">=</span><span class="token number">192.168</span>.0.1 --permanent
+<span class="token comment"># 将80端口的流量转发至192.168.0.1的8080端口</span>
+firewall-cmd --add-forward-port<span class="token operator">=</span>port<span class="token operator">=</span><span class="token number">80</span>:proto<span class="token operator">=</span>tcp:toaddr<span class="token operator">=</span><span class="token number">192.168</span>.0.1:toport<span class="token operator">=</span><span class="token number">8080</span> --permanent
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h3 id="使用命令加载设置"><a href="#使用命令加载设置" class="header-anchor">#</a> 使用命令加载设置</h3> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code>firewall-cmd --reload
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h3 id="查看开启的端口和服务"><a href="#查看开启的端口和服务" class="header-anchor">#</a> 查看开启的端口和服务</h3> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment">#服务空格隔开 例如 dhcpv6-client https ss</span>
+firewall-cmd --permanent --zone<span class="token operator">=</span>public --list-services
+
+<span class="token comment">#端口空格隔开 例如 8080-8081/tcp 8388/tcp 80/tcp</span>
+firewall-cmd --permanent --zone<span class="token operator">=</span>public --list-ports 
+
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br></div></div><h2 id="修改ssh端口"><a href="#修改ssh端口" class="header-anchor">#</a> 修改ssh端口</h2> <h3 id="一、修改ssh配置文件sshd-config"><a href="#一、修改ssh配置文件sshd-config" class="header-anchor">#</a> 一、修改<code>ssh</code>配置文件<code>sshd_config</code></h3> <p><img src="https://img-blog.csdnimg.cn/20201214133118599.png" alt="编辑配置文件"> <img src="https://img-blog.csdnimg.cn/20201214133400769.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L20wXzM3OTAzODgy,size_16,color_FFFFFF,t_70" alt="开启10022端口"></p> <h3 id="二、防火墙设置"><a href="#二、防火墙设置" class="header-anchor">#</a> 二、防火墙设置</h3> <h4 id="开启10022-端口"><a href="#开启10022-端口" class="header-anchor">#</a> 开启<code>10022</code> 端口</h4> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment">#开放10022端口</span>
+firewall-cmd --zone<span class="token operator">=</span>public --add-port<span class="token operator">=</span><span class="token number">10022</span>/tcp --permanent
+
+<span class="token comment">#重载配置</span>
+firewall-cmd --reload
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div><p><img src="https://img-blog.csdnimg.cn/2020121413372241.png" alt="开启端口">
+三、向<code>SELinux</code>中添加修改的<code>SSH</code>端口</p> <h4 id="先安装selinux的管理工具-semanage-如果已经安装了就直接到下一步"><a href="#先安装selinux的管理工具-semanage-如果已经安装了就直接到下一步" class="header-anchor">#</a> 先安装<code>SELinux</code>的管理工具 <code>semanage</code> (如果已经安装了就直接到下一步)</h4> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code>yum provides semanage
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h4 id="安装运行semanage所需依赖工具包policycoreutils-python"><a href="#安装运行semanage所需依赖工具包policycoreutils-python" class="header-anchor">#</a> 安装运行<code>semanage</code>所需依赖工具包<code>policycoreutils-python</code></h4> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code>yum -y <span class="token function">install</span> policycoreutils-python
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h4 id="查询当前-ssh-服务端口"><a href="#查询当前-ssh-服务端口" class="header-anchor">#</a> 查询当前 <code>ssh</code> 服务端口</h4> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code>semanage port -l <span class="token operator">|</span> <span class="token function">grep</span> <span class="token function">ssh</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h4 id="向-selinux-中添加-ssh-端口"><a href="#向-selinux-中添加-ssh-端口" class="header-anchor">#</a> 向 <code>SELinux</code> 中添加 <code>ssh</code> 端口</h4> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code>semanage port -a -t ssh_port_t -p tcp <span class="token number">10022</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p><img src="https://img-blog.csdnimg.cn/20201214134314126.png" alt="查看并添加10022端口"></p> <h4 id="重启-ssh-服务"><a href="#重启-ssh-服务" class="header-anchor">#</a> 重启 <code>ssh</code> 服务</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>systemctl restart sshd.service
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><p>测试成功后，把<code>22</code>端口注释掉即可</p> <h3 id="参考"><a href="#参考" class="header-anchor">#</a> 参考</h3> <ul><li><a href="https://www.cnblogs.com/heqiuyong/p/11072829.html" target="_blank" rel="noopener noreferrer">CentOS7修改SSH端口<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></li></ul> <h2 id="修改root密码"><a href="#修改root密码" class="header-anchor">#</a> 修改<code>root</code>密码</h2> <blockquote><p>已<code>root</code>用户登录后</p></blockquote> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token comment">#输入该命令修改密码</span>
+<span class="token function">passwd</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><p>不需要重启，下此的登陆使用修改后密码进行登录。</p> <h2 id="netstat-命令"><a href="#netstat-命令" class="header-anchor">#</a> <code>Netstat</code> 命令</h2> <blockquote><p><code>Netstat</code>命令用于显示各种网络相关信息，如网络连接，路由表，接口状态 <code>(Interface Statistics)，masquerade</code> 连接，多播成员<code>(Multicast Memberships)</code> 等等。</p></blockquote> <h3 id="常见参数"><a href="#常见参数" class="header-anchor">#</a> 常见参数</h3> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code>-a <span class="token punctuation">(</span>all<span class="token punctuation">)</span> <span class="token comment">#显示所有选项，netstat默认不显示LISTEN相关</span>
+-t <span class="token punctuation">(</span>tcp<span class="token punctuation">)</span> <span class="token comment">#仅显示tcp相关选项</span>
+-u <span class="token punctuation">(</span>udp<span class="token punctuation">)</span> <span class="token comment">#仅显示udp相关选项</span>
+-n <span class="token comment">#拒绝显示别名，能显示数字的全部转化成数字。(重要)</span>
+-l <span class="token comment">#仅列出有在 Listen (监听) 的服務状态</span>
+
+-p <span class="token comment">#显示建立相关链接的程序名(macOS中表示协议 -p protocol)</span>
+-r <span class="token comment">#显示路由信息，路由表</span>
+-e <span class="token comment">#显示扩展信息，例如uid等</span>
+-s <span class="token comment">#按各个协议进行统计 (重要)</span>
+-c <span class="token comment">#每隔一个固定时间，执行该netstat命令。</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><h3 id="常用命令"><a href="#常用命令" class="header-anchor">#</a> 常用命令</h3> <h4 id="列出所有端口-包括监听和未监听的"><a href="#列出所有端口-包括监听和未监听的" class="header-anchor">#</a> 列出所有端口 (包括监听和未监听的)</h4> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token function">netstat</span> -a <span class="token comment">#列出所有端口</span>
+<span class="token function">netstat</span> -at <span class="token comment">#列出所有tcp端口</span>
+<span class="token function">netstat</span> -au <span class="token comment">#列出所有udp端口 </span>
+<span class="token function">netstat</span> -antlp
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h4 id="列出所有处于监听状态的-sockets"><a href="#列出所有处于监听状态的-sockets" class="header-anchor">#</a> 列出所有处于监听状态的 <code>Sockets</code></h4> <div class="language-bash line-numbers-mode"><pre class="language-bash"><code><span class="token function">netstat</span> -l <span class="token comment">#只显示监听端口</span>
+<span class="token function">netstat</span> -lt <span class="token comment">#只列出所有监听tcp端口</span>
+<span class="token function">netstat</span> -lu <span class="token comment">#只列出所有监听udp端口</span>
+<span class="token function">netstat</span> -lx <span class="token comment">#只列出所有监听UNIX端口</span>
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div></div> <footer class="page-edit" style="display:none;"><div class="edit-link"><a href="https://github.com/DuebassLei/vuepress-theme-DuebassLei/edit/develop/example/docs/views/linux/centos.md" target="_blank" rel="noopener noreferrer">编辑该页面</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <div class="last-updated"><span class="prefix">Last Updated: </span> <span class="time">1/18/2021, 7:08:55 PM</span></div></footer> <!----> <!----></main> <!----> <div class="comments-wrapper" data-v-e3b9d544><div class="valine-wrapper"><div id="valine"></div></div></div></div></div></div></div></div><div class="global-ui"><div class="back-to-ceiling" style="right:1rem;bottom:6rem;width:2.5rem;height:2.5rem;border-radius:.25rem;line-height:2.5rem;background-color:rgba(231, 234, 241,.5);display:none;" data-v-44bd5a18 data-v-44bd5a18><svg t="1574745035067" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="5404" class="icon" data-v-44bd5a18><path d="M526.60727968 10.90185116a27.675 27.675 0 0 0-29.21455937 0c-131.36607665 82.28402758-218.69155461 228.01873535-218.69155402 394.07834331a462.20625001 462.20625001 0 0 0 5.36959153 69.94390903c1.00431239 6.55289093-0.34802892 13.13561351-3.76865779 18.80351572-32.63518765 54.11355614-51.75690182 118.55860487-51.7569018 187.94566865a371.06718723 371.06718723 0 0 0 11.50484808 91.98906777c6.53300375 25.50556257 41.68394495 28.14064038 52.69160883 4.22606766 17.37162448-37.73630017 42.14135425-72.50938081 72.80769204-103.21549295 2.18761121 3.04276886 4.15646224 6.24463696 6.40373557 9.22774369a1871.4375 1871.4375 0 0 0 140.04691725 5.34970492 1866.36093723 1866.36093723 0 0 0 140.04691723-5.34970492c2.24727335-2.98310674 4.21612437-6.18497483 6.3937923-9.2178004 30.66633723 30.70611158 55.4360664 65.4791928 72.80769147 103.21549355 11.00766384 23.91457269 46.15860503 21.27949489 52.69160879-4.22606768a371.15156223 371.15156223 0 0 0 11.514792-91.99901164c0-69.36717486-19.13165746-133.82216804-51.75690182-187.92578088-3.42062944-5.66790279-4.76302748-12.26056868-3.76865837-18.80351632a462.20625001 462.20625001 0 0 0 5.36959269-69.943909c-0.00994388-166.08943902-87.32547796-311.81420293-218.6915546-394.09823051zM605.93803103 357.87693858a93.93749974 93.93749974 0 1 1-187.89594924 6.1e-7 93.93749974 93.93749974 0 0 1 187.89594924-6.1e-7z" p-id="5405" data-v-44bd5a18></path><path d="M429.50777625 765.63860547C429.50777625 803.39355007 466.44236686 1000.39046097 512.00932183 1000.39046097c45.56695499 0 82.4922232-197.00623328 82.5015456-234.7518555 0-37.75494459-36.9345906-68.35043303-82.4922232-68.34111062-45.57627738-0.00932239-82.52019037 30.59548842-82.51086798 68.34111062z" p-id="5406" data-v-44bd5a18></path></svg></div><!----></div></div>
+    <script src="/assets/js/app.b573ec73.js" defer></script><script src="/assets/js/3.92680ad1.js" defer></script><script src="/assets/js/1.b182e45e.js" defer></script><script src="/assets/js/45.c5b23a8e.js" defer></script>
+  </body>
+</html>
